@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\app",
+    "\\client\\src\\app\\navbar",
+    "\\StreamingServicesAPI",
+    "\\StreamingServicesAPI\\Models"
+  ],
+  "SelectedNode": "\\client\\src\\app\\navbar\\navbar.component.html",
+  "PreviewInSolutionExplorer": false
+}
