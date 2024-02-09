@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oxZ39tbnE+CTVdH6HoycS1M1Xre0wr8Dwg5R7nWWVJJSoHyiIf/H3EGYvFPDP4l/TCpI1UaAgEuf2zj0HV6A2A==",
+  "dgSpecHash": "4NsWy2IkGTZG/mW5AMsLvlWTxQ8A038VfgfSy+1cmC52VGUs30v4nz5uO4uAk8ocKFPYzU4dHsKFPcBTc+TOJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ninih\\OneDrive\\Documents\\Learning\\StreamingServices\\StreamingServices\\StreamingServicesAPI\\StreamingServicesAPI.csproj",
+  "projectFilePath": "C:\\Users\\ninih\\OneDrive\\Documents\\Learning\\StreamingServices_GIT\\StreamingServices\\StreamingServicesAPI\\StreamingServicesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ninih\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ninih\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -11,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<StreamingServiceDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("StreamingServicesConnectionString")));
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 builder.Services.AddScoped<IDemographicGroupRepository,DemographicGroupRepository>();
+builder.Services.AddScoped<IStreamingServiceRepository,StreamingServiceRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

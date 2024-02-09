@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StreamingServicesAPI.Data;
 
@@ -10,9 +11,11 @@ using StreamingServicesAPI.Data;
 namespace StreamingServicesAPI.Migrations
 {
     [DbContext(typeof(StreamingServiceDbContext))]
-    partial class StreamingServiceDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240207222304_streaming_service_studio_new")]
+    partial class streaming_service_studio_new
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
