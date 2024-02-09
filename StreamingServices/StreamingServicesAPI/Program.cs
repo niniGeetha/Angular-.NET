@@ -12,6 +12,7 @@ builder.Services.AddDbContext<StreamingServiceDbContext>(options => options.UseS
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 builder.Services.AddScoped<IDemographicGroupRepository,DemographicGroupRepository>();
 builder.Services.AddScoped<IStreamingServiceRepository,StreamingServiceRepository>();
+builder.Services.AddScoped<IStudioRepository, StudioRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
